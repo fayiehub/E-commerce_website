@@ -482,11 +482,11 @@ footer .follow i {
     cursor: pointer;
 }
 
-
-/* footer .install .row img {
+footer .install .row img {
     border: #088178 1px solid;
     border-radius: 6px;
-} */
+    height: 42px;
+}
 
 footer .install img {
     margin: 10px 0 15px 0;
