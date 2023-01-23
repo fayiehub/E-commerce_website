@@ -397,6 +397,7 @@ button.white {
     background-image: url("images/newsback.jpg");
     background-repeat: no-repeat;
     background-color: #041e42;
+    background-size: cover;
 }
 
 #newsletter h4 {
