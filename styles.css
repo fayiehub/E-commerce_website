@@ -511,6 +511,9 @@ footer .copyright {
     width: 100%;
 }
 
+
+/*Shop page*/
+
 #page-header {
     background-image: url(../images/page-header.jpg);
     width: 100%;
@@ -545,6 +548,26 @@ h2 {
 #pagination a i {
     font-size: 16px;
     font-weight: 600;
+}
+
+
+/*Single-product page*/
+
+#product-details {}
+
+#product-details .single-prod-img {
+    width: 40%;
+    margin-right: 50px;
+}
+
+.small-img-grp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col {
+    flex-basis: 24%;
+    cursor: pointer;
 }
 
 

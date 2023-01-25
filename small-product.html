@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce website</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/fontawesome.min.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+
+</head>
+
+<body>
+    <script src="scripts.js"></script>
+    <section id="header">
+        <a href="#"><img src="images/logo.png" alt="logo" class="logo"></img>
+        </a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="bag"><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="product-details" class="section-padding1">
+        <div class="single-prod-img">
+            <img src="images/Products/prod1.jpg" alt="image1" width="100%" id="main-image">
+            <div class="small-img-grp">
+                <div class="small-img-col">
+                    <img src="images/Products/prod2.jpg" alt="image2" width="100%">
+                </div>
+                <div class="small-img-col">
+                    <img src="images/Products/prod3.jpg" alt="image2" width="100%">
+                </div>
+                <div class="small-img-col">
+                    <img src="images/Products/prod2.jpg" alt="image2" width="100%">
+                </div>
+                <div class="small-img-col">
+                    <img src="images/Products/prod5.jpg" alt="image2" width="100%">
+                </div>
+            </div>
+            <div class="single-prod-details">
+                <h6>Home / T-shirt</h6>
+                <h4>Men's Fashion T-shirt</h4>
+                <h2>Ksh. 1800</h2>
+                <select>
+                    <option>-Select size-</option>
+                    <option>XL</option>
+                    <option>XXL</option>
+                    <option>Small</option>
+                    <option>Large</option>
+                </select>
+                <input type="number" value="1">
+                <button>Add to Cart</button>
+                <h4>Product Details</h4>
+                <span>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna 
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Ses
+                    ed do eiusmod tempor incididunt ut labore et dolore magna 
+                    aliqua.</span>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="newsletter" class="section-padding1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up for Newsletters</h4>
+            <p>Get email updates about our latest shop and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <footer class="section-padding1">
+        <div class="column">
+            <img src="images/logo.png" alt="logo" class="logo">
+            <h4>Contact</h4>
+            <p> <strong>Address: </strong>562 Wellington Road Street 32 San Francisco</p>
+            <p><strong>Phone: </strong>+254 700 105 999/ +254 722 622 999</p>
+            <p><strong>Hours: </strong>10:00 - 18:00, Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-pinterest-p"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="column">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="column install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="images/appstore.png" alt="appstore">
+                <img src="images/googleplay.png" alt="googleplay">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="images/payment-gateways.png" alt="paymentgateways">
+        </div>
+        <div class="copyright">
+            <p>© 2022 - 2023 All rights reserved</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
