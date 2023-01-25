@@ -100,6 +100,10 @@ body {
     align-items: center;
 }
 
+#close {
+    display: none;
+}
+
 
 /* Home page  */
 
@@ -518,7 +522,7 @@ footer .copyright {
         justify-content: flex-start;
         position: fixed;
         top: 0;
-        right: -300px;
+        right: -330px;
         height: 100vh;
         width: 300px;
         background-color: #e3e6f3;
@@ -526,7 +530,7 @@ footer .copyright {
         padding: 80px 0 0 10px;
         transition: 0.3s;
     }
-    #navbar .active {
+    #navbar.active {
         right: 0px;
     }
     #navbar li {
@@ -540,5 +544,81 @@ footer .copyright {
         color: #1a1a1a;
         font-size: 24px;
         padding-left: 20px;
+    }
+    #close {
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #222;
+        font-size: 24px;
+    }
+    #bag {
+        display: none;
+    }
+    #hero {
+        height: 70vh;
+        padding: 0 80px;
+        background-position: top 30% right 30%;
+    }
+    #features {
+        justify-content: center;
+    }
+    #features .feat-box {
+        margin: 15px 15px;
+    }
+    .section-padding1 {
+        padding: 40px 40px;
+    }
+    #product1 .prod-container {
+        justify-content: center;
+    }
+    #product1 .prod {
+        margin: 10px;
+    }
+    #banner {
+        height: 20vh;
+    }
+    #banner h2 {
+        font-size: 30px;
+    }
+    #small-banner .banner-box {
+        min-width: 100%;
+        height: 40vh;
+    }
+    #banner-3 {
+        padding: 0 40px;
+    }
+    #banner-3 .banner-box {
+        width: 30%;
+    }
+    #newsletter .form {
+        width: 70%;
+    }
+}
+
+@media (max-width:477px) {
+    .section-padding1 {
+        padding: 20px;
+    }
+    #header {
+        padding: 10px 30px;
+    }
+    h2 {
+        font-size: 32px
+    }
+    h1 {
+        font-size: 38px
+    }
+    #hero {
+        padding: 0 80px;
+        background-position: 55%;
+    }
+    #features {
+        justify-content: space-between;
+    }
+    #features .feat-box {
+        width: 155px;
+        margin: 0 0 15px 0;
     }
 }
