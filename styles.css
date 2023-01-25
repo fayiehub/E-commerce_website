@@ -229,7 +229,7 @@ body {
     font-weight: bold;
 }
 
-.section-padding1 .prod .fa-cart-shopping {
+.section-padding1 .prod .shop {
     width: 40px;
     height: 40px;
     line-height: 40px;
@@ -620,5 +620,38 @@ footer .copyright {
     #features .feat-box {
         width: 155px;
         margin: 0 0 15px 0;
+    }
+    #product1 .prod {
+        width: 100%;
+    }
+    #banner {
+        height: 40vh;
+    }
+    #small-banner .banner-box {
+        height: 40vh;
+    }
+    #small-banner .banner-box2 {
+        margin-top: 20px;
+    }
+    #banner-3 {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 0 80px;
+    }
+    #banner-3 {
+        padding: 20px;
+    }
+    #banner-3 .banner-box {
+        width: 100%;
+    }
+    #newsletter .form {
+        width: 100%;
+    }
+    #newsletter {
+        padding: 40px 20px;
+    }
+    footer .copyright {
+        text-align: start;
     }
 }
