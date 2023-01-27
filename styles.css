@@ -553,7 +553,10 @@ h2 {
 
 /*Single-product page*/
 
-#product-details {}
+#product-details {
+    display: flex;
+    margin-top: 20px;
+}
 
 #product-details .single-prod-img {
     width: 40%;
@@ -568,6 +571,10 @@ h2 {
 .small-img-col {
     flex-basis: 24%;
     cursor: pointer;
+}
+
+#product-details .single-prod-details {
+    width: 50%;
 }
 
 
